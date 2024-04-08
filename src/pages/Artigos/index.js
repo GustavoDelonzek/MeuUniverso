@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { db, auth } from "../../firebase/firebaseConnection";
 
 import "./style.css";
@@ -64,7 +64,7 @@ function Artigos() {
 
     }
 
-    
+
 
     const buscarDados = () => {
         const apodApi = `https://api.nasa.gov/planetary/apod?api_key=6hbSF0dO6LHta3b0ghWtGepdEU9v7CriQwOvQQ52&date=${dataAtual()}`;
@@ -94,23 +94,39 @@ function Artigos() {
 
     return (
         <main id="main-artigo" className="d-flex flex-column">
-            <div className="container text-center pt-4">
+            <div className="container text-center py-4">
 
                 <h1 className="titulo-forum">Forum MyUniverse</h1>
             </div>
-            <section className="container noticias-artigo mt-4">
+            <section className="container noticias-artigo ">
                 <div className="row d-flex align-items-center">
 
-
+                <div className="">
+                        <h2 className="py-2 titulo-noticias text-center">Noticias recentes</h2>
+                        <p className="text-center">Acompanhe as têndencias do mundo astronomico junto com a possibilidade de descoberta</p>
+                    </div>
                     <Swiper
-                        slidesPerView={3}
-                        spaceBetween={30}
+                        
                         navigation={false}
                         pagination={{
                             type: 'progressbar',
                         }}
+                        breakpoints={{
+                            640: {
+                                slidesPerView: 1,
+                                spaceBetween: 40,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                                spaceBetween: 30,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 40,
+                            },
+                        }}
                         modules={[Pagination, Navigation]}
-                        className="mySwiper col-9"
+                        className="mySwiper col-md-9 col-12"
                     >
                         {noticias.map((noticia) => {
                             return (
@@ -122,10 +138,7 @@ function Artigos() {
                         })}
 
                     </Swiper>
-                    <div className="col-3">
-                        <h2 className="py-2 titulo-noticias">Noticias recentes</h2>
-                        <p className="text-center">Acompanhe as têndencias do mundo astronomico junto com a possibilidade de descoberta</p>
-                    </div>
+                    
                 </div>
 
             </section>
@@ -176,10 +189,10 @@ function Artigos() {
                                     <div key={artigos.id} class="card mb-3 artigo-style" >
                                         <div class="row g-0 p-2">
                                             <div class="col-md-2 d-flex flex-column justify-content-start align-items-center py-2">
-                                                
-                                                    <GiAstronautHelmet size={46} />
-                                                    <p className="">{artigos.autor}</p>
-                                              
+
+                                                <GiAstronautHelmet size={46} />
+                                                <p className="">{artigos.autor}</p>
+
 
                                             </div>
                                             <div class="col-md-10">

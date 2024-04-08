@@ -19,6 +19,7 @@ html {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
+    font-size: 46px;
 }
 
 #main-artigo .noticias-artigo {
@@ -52,7 +53,7 @@ html {
 #main-artigo .imagens-noticias .blur {
     backdrop-filter: blur(5px);
     padding: 5px;
-
+    font-size: 12px;
     text-shadow: -4px 2px 15px rgba(0, 0, 0, 1);
 }
 
