@@ -15,18 +15,6 @@ import { FaWindowClose } from "react-icons/fa";
 import { GiAstronautHelmet } from "react-icons/gi";
 
 
-import {
-    doc,
-    setDoc,
-    collection,
-    addDoc,
-    getDoc,
-    getDocs,
-    updateDoc,
-    deleteDoc,
-    onSnapshot,
-    Timestamp
-} from 'firebase/firestore';
 
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -43,6 +31,7 @@ import { ArtigoCrudContext } from "../../contexts/artigoCrud";
 import { AuthContext } from "../../contexts/userDetails";
 
 import noticias from "./noticias.json"
+import pessoas from "./astros.json"
 
 function Artigos() {
     const [titulo, setTitulo] = useState('');
@@ -52,14 +41,12 @@ function Artigos() {
     const { artigo, handleAdd, excluirArtigo } = useContext(ArtigoCrudContext)
     const { user } = useContext(AuthContext);
 
-    const [pessoas, setPessoas] = useState([]);
 
 
 
 
     useEffect(() => {
         buscarDados();
-        pessoasEspaco();
     }, []);
 
 
@@ -77,17 +64,7 @@ function Artigos() {
 
     }
 
-    const pessoasEspaco = () => {
-        const pessoaApi = `http://api.open-notify.org/astros.json`
-
-        fetch(pessoaApi)
-            .then((r) => r.json())
-            .then((data) => {
-                setPessoas(data);
-            }).catch((error) => {
-                console.error('Erro ao buscar pessoas', error)
-            })
-    }
+    
 
     const buscarDados = () => {
         const apodApi = `https://api.nasa.gov/planetary/apod?api_key=6hbSF0dO6LHta3b0ghWtGepdEU9v7CriQwOvQQ52&date=${dataAtual()}`;
