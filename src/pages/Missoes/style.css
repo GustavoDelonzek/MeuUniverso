@@ -1,0 +1,105 @@
+#missoes{
+    background-color: #31386E;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.teste-progresso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.progress-circular{
+    position: relative;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(#387385 30deg, #ededed 0deg);
+    
+}
+
+.progress-circular::after{
+    position: absolute;
+    content: '';
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.value{
+    font-size: 30px;
+    font-weight: 600;
+    color: #61B5D9;
+    z-index: 9;
+}
+
+.temporizador-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 1px 15px;
+}
+
+.temporizador{
+    text-align: center;
+}
+
+.temporizador span{
+    font-size: 14px;
+}
+#missoes .titulo-missao{
+    color: #61B5D9;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#missoes .titulo-pagina{
+    color: #61B5D9;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 46px;
+    padding: 15px;
+    text-shadow: -4px 2px 6px rgba(0,0,0,1);
+}
+
+#missoes ul{
+    list-style:  none;
+}
+
+#missoes .nav-link{
+    padding: 10px 25px;
+    margin: 0;
+}
+
+#missoes .nav-link:hover{
+    color: #ffffff88;
+}
+
+#missoes .card-missoes{
+    border-image: linear-gradient(to right, var(#61B5D9), var(#E4F2FC));
+    border-image-slice: 1;
+    color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px var(--azul-claro);
+    border-radius: 15px;
+    background-color: #202e44d2;
+}
+
+
+#missoes .tab-pane{
+    background-color: #ffffffcb;
+}

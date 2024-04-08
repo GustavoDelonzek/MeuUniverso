@@ -1,0 +1,486 @@
+#planetas .planet-list li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#planetas .planet-list li .sol{
+    width: 130%;
+}
+
+#planetas .planet-list li .mercurio{
+    width: 30%;
+}
+
+#planetas .planet-list li .venus{
+    width: 50%;
+}
+
+#planetas .planet-list li .terra{
+    width: 60%;
+}
+
+#planetas .planet-list li .marte{
+    width: 40%;
+}
+
+#planetas .planet-list li .jupiter{
+    width:90%;
+}
+
+#planetas .planet-list li .saturno{
+    width: 100%;
+}
+
+#planetas .planet-list li .urano{
+    width: 55%;
+}
+
+#planetas .planet-list li .netuno{
+    width: 50%;
+}
+
+.bg-gradient-azul{
+    background: #27338A;
+    background: radial-gradient(circle, #27338af8 0%, rgb(0, 0, 0) 74%);
+}
+
+
+
+#planetas .planet-list li a img:hover {
+    transform: scale(1.2);
+    border: #fff 3px dashed;
+    border-radius: 50%;
+    padding: 2%;
+    transition: all 0.3s;
+}
+#planetas .planet-list li a:focus img, .active img{
+    transform: scale(1.2);
+    border: #f1c915e1 3px dashed;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+#planetas .container{
+    flex-direction: column;
+    justify-content: start ;
+    align-items: start;
+}
+
+#planetas .nav-tabs{
+    border: none !important;
+}
+
+
+#planetas .planet-list{
+    list-style: none;
+    flex-wrap:  nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+#planetas .planet-list li{
+    margin: 10px ;
+    cursor: pointer;
+    transition: all 1s;
+    width: 20%;
+    display: flex;
+    
+}
+
+
+#planetas .nav-link {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#planetas .tab-content .active{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#planetas .tab-content .active{
+    background: rgba( 201, 201, 201, 0.1 );
+    box-shadow: 0 8px 28px 0 rgba(115, 117, 139, 0.37);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#planetas .nav-link:hover {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+
+#planetas .tab-content h1{
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+#panetas .tab-content p{
+    text-align: justify;
+    font-size: 16px;
+    padding: 1px 5px;
+    word-spacing: 0.5px;
+    letter-spacing: 0.4px;
+    font-family: 'roboto', sans-serif;
+    
+}
+
+#planetas .tab-content .titulo-principal{
+    font-size: 43px;
+    
+}
+
+
+#planetas .tab-content{
+    color: white;
+}
+
+
+@media (max-width: 480px) {
+    #planetas iframe{
+        width: 350px;
+        height: 220px;
+    }
+    
+    #home h1{
+        color: white;
+        font-size: 42px;
+        padding: 10px;
+    }
+    
+    #home p{
+        color: white;
+        font-size: 24px;
+        padding-bottom: 5px;
+    }
+
+    #planetas .planet-list{
+        list-style: none;
+        flex-wrap:  wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    
+    #planetas .planet-list li{
+        margin: 10px ;
+        cursor: pointer;
+        transition: all 1s;
+        width: 15%;
+        display: flex;
+        
+    }
+    
+    #planetas .planet-list li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    #planetas .planet-list li a:focus img, .active img{
+        transform: scale(1.2);
+        border: #f1c915e1 1px dashed;
+        border-radius: 50%;
+        padding: 2%;
+    }
+
+    #planetas .planet-list li .sol{
+        width: 100%;
+        
+        
+    }
+    
+    #planetas .planet-list li .mercurio{
+        width: 45%;
+    }
+    
+    #planetas .planet-list li .venus{
+        width: 65%;
+    }
+    
+    #planetas .planet-list li .terra{
+        width: 75%;
+    }
+    
+    #planetas .planet-list li .marte{
+        width: 55%;
+    }
+    
+    #planetas .planet-list li .jupiter{
+        width:95%;
+    }
+    
+    #planetas .planet-list li .saturno{
+        width: 100%;
+    }
+    
+    #planetas .planet-list li .urano{
+        width: 60%;
+    }
+    
+    #planetas .planet-list li .netuno{
+        width: 55%;
+    }
+
+    
+
+    #planetas .tab-content h1{
+        color: white;
+        font-size: 28px;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #planetas .tab-content p{
+        text-align: justify;
+        font-size: 15px;
+        padding: 1px 20px;
+        word-spacing: 0.5px;
+        letter-spacing: 0.4px;
+        font-family: 'roboto', sans-serif;
+        
+    }
+    
+    #planetas .tab-content .titulo-principal{
+        font-size: 35px;
+        
+    }
+
+    #noticias .titulo-noticias{
+        font-size: 22px;
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    #planetas iframe{
+        width: 350px;
+        height: 220px;
+    }
+    #home h1{
+        color: white;
+        font-size: 44px;
+        padding: 10px;
+    }
+    
+    #home p{
+        color: white;
+        font-size: 26px;
+        padding-bottom: 5px;
+    }
+
+    #planetas .planet-list{
+        list-style: none;
+        flex-wrap:  wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    
+    #planetas .planet-list li{
+        margin: 10px ;
+        cursor: pointer;
+        transition: all 1s;
+        width: 15%;
+        display: flex;
+        
+    }
+    
+    #planetas .planet-list li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    #planetas .planet-list li a:focus img, .active img{
+        transform: scale(1.2);
+        border: #f1c915e1 2px dashed;
+        border-radius: 50%;
+        padding: 2%;
+    }
+
+    #planetas .planet-list li .sol{
+        width: 100%;
+        
+        
+    }
+    
+    #planetas .planet-list li .mercurio{
+        width: 40%;
+    }
+    
+    #planetas .planet-list li .venus{
+        width: 60%;
+    }
+    
+    #planetas .planet-list li .terra{
+        width: 70%;
+    }
+    
+    #planetas .planet-list li .marte{
+        width: 50%;
+    }
+    
+    #planetas .planet-list li .jupiter{
+        width:90%;
+    }
+    
+    #planetas .planet-list li .saturno{
+        width: 100%;
+    }
+    
+    #planetas .planet-list li .urano{
+        width: 55%;
+    }
+    
+    #planetas    .planet-list li .netuno{
+        width: 50%;
+    }
+
+
+    #planetas .tab-content h1{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #planetas .tab-content p{
+        text-align: justify;
+        font-size: 15px;
+        padding: 1px 20px;
+        word-spacing: 0.5px;
+        letter-spacing: 0.4px;
+        font-family: 'roboto', sans-serif;
+        
+    }
+    
+    #planetas .tab-content .titulo-principal{
+        font-size: 37px;
+        
+    }
+
+    #noticias .titulo-noticias{
+        font-size: 23px;
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    #planetas iframe{
+        width: 500px;
+        height: 300px;
+    }
+    #home h1{
+        color: white;
+        font-size: 47px;
+        padding: 10px;
+    }
+    
+    #home p{
+        color: white;
+        font-size: 30px;
+    }
+
+
+    #planetas .planet-list{
+        list-style: none;
+        flex-wrap:  wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0;
+    }
+    
+    #planetas .planet-list li{
+        margin: 10px ;
+        cursor: pointer;
+        transition: all 1s;
+        width: 15%;
+        display: flex;
+        
+    }
+    
+    #planetas .planet-list li a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    #planetas .planet-list li a:focus img, .active img{
+        transform: scale(1.2);
+        border: #f1c915e1 2px dashed;
+        border-radius: 50%;
+        padding: 2%;
+    }
+    
+
+
+
+    #planetas .tab-content h1{
+        color: white;
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    #planetas .tab-content p{
+        text-align: justify;
+        font-size: 16px;
+        padding: 1px 20px;
+        word-spacing: 0.5px;
+        letter-spacing: 0.4px;
+        font-family: 'roboto', sans-serif;
+        
+    }
+    
+    #planetas .tab-content .titulo-principal{
+        font-size: 39px;
+        
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 1025px) and (max-width: 1440px) {
+    #planetas iframe{
+        width: 550px;
+        height: 350px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1441px) {
+	#planetas iframe{
+        width: 600px;
+        height: 400px;
+    }
+}

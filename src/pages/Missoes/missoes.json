@@ -1,0 +1,58 @@
+[
+  {
+    "titulo": "Missão BepiColombo",
+    "descricao": "Missão conjunta da Agência Espacial Europeia (ESA) e da Agência Japonesa de Exploração Aeroespacial (JAXA) para estudar Mercúrio. A missão consiste em duas naves espaciais que entrarão em órbita de Mercúrio em 2025.",
+    "datainicio": "2018-10-19T00:00",
+    "datatermino": "2027-01-01T00:00",
+    "agenciaespacial": "ESA/JAXA",
+    "image_url": "https://www.cosmos.esa.int/documents/522118/522182/BepiColombo_logo.png/0ba9c44b-a454-0e33-a60d-4751b21714ed?t=1614025987470"
+  },
+  {
+    "titulo": "Missão Psyche",
+    "descricao": "Explorar o asteroide 16 Psyche, possível núcleo de um planeta.",
+    "datainicio": "2023-08-01T00:00",
+    "datatermino": "2026-08-01T00:00",
+    "agenciaespacial": "NASA",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Psyche_insignia.png/900px-Psyche_insignia.png?20170603050213"
+  },
+  {
+    "titulo": "Missão Europa Clipper",
+    "descricao": "Estudo da lua Europa de Júpiter, com potencial oceano subterrâneo.",
+    "datainicio": "2020-10-01T00:00",
+    "datatermino": "2030-01-01T00:00",
+    "agenciaespacial": "NASA",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Europa_Clipper_patch.png"
+  },
+  {
+    "titulo": "Missão Dragonfly",
+    "descricao": "Explorar a lua Titã de Saturno, com lagos e rios de metano líquido.",
+    "datainicio": "2021-06-01T00:00",
+    "datatermino": "2034-01-01T00:00",
+    "agenciaespacial": "NASA",
+    "image_url": "https://dragonfly.jhuapl.edu/img/logos/dragonfly-logo2.png"
+  },
+  {
+    "titulo": "Missão Mars Sample Return",
+    "descricao": "Coleta de amostras de rochas e solo de Marte para retorno à Terra.",
+    "datainicio": "2023-09-01T00:00",
+    "datatermino": "2033-09-01T00:00",
+    "agenciaespacial": "NASA/ESA",
+    "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/04/mars_sample_return_logo/24825192-2-eng-GB/Mars_Sample_Return_logo_pillars.png"
+  },
+  {
+    "titulo": "Missão Euclid",
+    "descricao": "Missão espacial da ESA para estudar matéria escura e energia escura.",
+    "datainicio": "2023-07-01T00:00",
+    "datatermino": "2029-07-01",
+    "agenciaespacial": "ESA",
+    "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2013/01/euclid_logo/12493233-3-eng-GB/Euclid_logo_pillars.png"
+  },
+  {
+    "titulo": "Missão Artemis I",
+    "descricao": "Primeiro voo não tripulado do foguete Space Launch System (SLS) e da nave espacial Orion, com o objetivo de testar a capacidade do sistema de levar humanos à Lua.",
+    "datainicio": "2022-11-16T00:00",
+    "datatermino": "2022-12-11T00:00",
+    "agenciaespacial": "NASA",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Exploration_Mission-1_patch.png/800px-Exploration_Mission-1_patch.png"
+  }
+]

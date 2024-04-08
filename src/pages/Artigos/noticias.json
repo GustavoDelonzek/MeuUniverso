@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "titulo": "Descoberto novo planeta similar à Terra na zona habitável de uma estrela distante",
+      "imageUrl": "https://www.cnnbrasil.com.br/wp-content/uploads/2021/06/3152_7995AE0940362EDF.jpg",
+      "autor": "Dr. Maria Silva",
+      "noticiaUrl": "https://www.cnnbrasil.com.br/tecnologia/cientistas-descobrem-planeta-potencialmente-habitavel-similar-a-terra/"
+    },
+    {
+      "id": 2,
+      "titulo": "Astrônomos observam colisão de duas estrelas em galáxia próxima",
+      "imageUrl": "https://www.cnnbrasil.com.br/wp-content/uploads/2021/06/3151_0DF022B339FEAA0A.jpg",
+      "autor": "Dr. João Oliveira",
+      "noticiaUrl": "https://www.cnnbrasil.com.br/tecnologia/cientistas-descobrem-planeta-potencialmente-habitavel-similar-a-terra/"
+    },
+    {
+      "id": 3,
+      "titulo": "Nebulosa recém-descoberta revela insights sobre formação estelar",
+      "imageUrl": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/nebulosas-sao-nuvens-cosmicas-formadas-por-poeira-espacial-hidrogenio-gases-ionizados-58baa56ba373c.jpg",
+      "autor": "Dra. Ana Santos",
+      "noticiaUrl": "https://www.cnnbrasil.com.br/tecnologia/cientistas-descobrem-planeta-potencialmente-habitavel-similar-a-terra/"
+    },
+    {
+      "id": 4,
+      "titulo": "Sonda da NASA detecta evidências de água em lua de Júpiter",
+      "imageUrl": "https://uploads.jovemnerd.com.br/wp-content/uploads/15-195_perspective_2.jpg",
+      "autor": "Dr. Carlos Sousa",
+      "noticiaUrl": "https://www.cnnbrasil.com.br/tecnologia/cientistas-descobrem-planeta-potencialmente-habitavel-similar-a-terra/"
+    },
+    {
+      "id": 5,
+      "titulo": "Telescópio Hubble captura imagem de supernova em galáxia distante",
+      "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2021/01/hubble_pinpoints_supernova_blast/22417706-1-eng-GB/Hubble_pinpoints_supernova_blast_pillars.jpg",
+      "autor": "Dr. Rafael Mendes",
+      "noticiaUrl": "https://www.cnnbrasil.com.br/tecnologia/cientistas-descobrem-planeta-potencialmente-habitavel-similar-a-terra/"
+    },
+    {
+      "id": 6,
+      "titulo": "Astrônomos observam buraco negro devorando estrela nas proximidades da Via Láctea",
+      "imageUrl": "https://t.ctcdn.com.br/wSzCOdmYs9jfkdwZWSBN9WeSdK0=/768x432/smart/i10331.jpeg",
+      "autor": "Dra. Sofia Almeida",
+      "noticiaUrl": "https://www.cnnbrasil.com.br/tecnologia/cientistas-descobrem-planeta-potencialmente-habitavel-similar-a-terra/"
+    },
+    {
+      "id": 7,
+      "titulo": "Estudo revela nova teoria sobre origem dos cometas",
+      "imageUrl": "https://aventurasnahistoria.uol.com.br/media/uploads/espaco/cometa_capa.jpg",
+      "autor": "Dr. André Costa",
+      "noticiaUrl": "https://www.cnnbrasil.com.br/tecnologia/cientistas-descobrem-planeta-potencialmente-habitavel-similar-a-terra/"
+    },
+    {
+      "id": 8,
+      "titulo": "Sonda espacial envia dados sobre atmosfera de planeta gasoso em sistema solar distante",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2R0E_wvM3JncloQidGI50_5XGZk4hk_pJxfDPO15keQ&s",
+      "autor": "Dra. Mariana Ramos",
+      "noticiaUrl": "https://www.cnnbrasil.com.br/tecnologia/cientistas-descobrem-planeta-potencialmente-habitavel-similar-a-terra/"
+    }
+  ]

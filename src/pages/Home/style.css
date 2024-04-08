@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --azul-escuro: #101630;
+    --azul-roxo: #4429B8;
+    --azul: #052efb;
+    --azul-claro: #61B5D9;
+    --azul-branco: #E4F2FC;
+    --cinza-claro: #82879A;
+    --cinza: #202E44;
+}
+
+
+
+.bg-comeco {
+    background-image: url(../../assets/imagens/pexels-eberhard-grossgasteiger-1421903.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+
+#home .container .row {
+    min-height: 100vh;
+
+}
+
+#home h1 {
+    color: white;
+    font-size: 56px;
+    padding: 10px;
+}
+
+#home p {
+    color: white;
+    font-size: 32px;
+    padding-bottom: 7px;
+}
+
+#home .botao-home {
+    background-color: var(--azul);
+}
+
+
+.caixa {
+    padding: 20px 20px;
+
+}
+
+.custom-link {
+    font-size: 17px;
+    color: #fff;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    background-color: var(--azul);
+    color: #fff;
+}
+
+#inicial-um {
+    min-height: 100vh;
+    background-color: var(--azul-escuro);
+    color: #fff;
+}
+
+#inicial-um .introducao-inicial,
+#inicial-um .titulo-inicial {
+    padding: 20px;
+}
+
+#inicial-um .titulo-inicial {
+    font-size: 46px;
+    background: #4429B8;
+    background: linear-gradient(to right, #634dc3 0%, #61B5D9 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+
+}
+
+#inicial-um .card {
+    background-color: var(--azul-escuro);
+    border: 3px solid;
+
+    border-image: linear-gradient(to right, var(--azul-roxo), var(--azul-claro));
+    border-image-slice: 1;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px var(--azul-claro);
+    min-height: 55vh;
+    margin-bottom: 30px;
+}
+
+
+#inicial-um .card .btn-ver {
+    background-image: linear-gradient(to right, var(--azul-claro), var(--azul-roxo));
+    border: 0;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 3s ease-in-out;
+}
+
+
+#noticias .titulo-noticias {
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-noticias {
+    background-color: #27338a3b;
+}
+
+#noticias .card {
+    color: white;
+    background-color: #222d7891;
+    min-height: 100%;
+
+}
+
+.card-body h5 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.card-body p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: rgb(148, 129, 241);
+    padding: 0;
+}

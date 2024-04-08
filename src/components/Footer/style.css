@@ -1,0 +1,16 @@
+footer{
+    background-color: #131948;
+}
+
+footer p{
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+footer .nav .nav-item .nav-link{
+    color: #ffffff;
+}
+
+footer .nav .nav-item .nav-link:hover{
+    color: #27338A;
+}

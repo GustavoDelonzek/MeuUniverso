@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#main-artigo {
+    min-height: 100vh;
+    background-color: #31386E;
+}
+
+#main-artigo .titulo-forum {
+    background: #4429B8;
+    background: linear-gradient(to top, #6fbcf7 0%, #fff 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+#main-artigo .noticias-artigo {
+    border-image: linear-gradient(to right, var(#61B5D9), var(#E4F2FC));
+    border-image-slice: 1;
+    color: #fff;
+
+    padding: 30px;
+    box-shadow: 0 0 10px #61B5D9;
+    border-radius: 15px;
+    background-color: #202e44d2;
+
+}
+
+#main-artigo .imagens-noticias {
+    min-height: 300px;
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: -4px 2px 15px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 12px #3f829f;
+}
+
+#main-artigo .noticias-artigo .mySwiper {
+    padding: 12px;
+}
+
+
+#main-artigo .imagens-noticias .blur {
+    backdrop-filter: blur(5px);
+    padding: 5px;
+
+    text-shadow: -4px 2px 15px rgba(0, 0, 0, 1);
+}
+
+
+
+
+
+#postar-artigo {
+
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px var(--azul-claro);
+    border-radius: 15px;
+    background-color: #202e44ed;
+}
+
+#postar-artigo .bg-modal {
+    border-image: linear-gradient(to right, var(#61B5D9), var(#E4F2FC));
+    border-image-slice: 1;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px var(--azul-claro);
+    border-radius: 15px;
+    background-color: #202e44d2;
+}
+
+#postar-artigo .titulo-discusoes,
+#main-artigo .titulo-noticias {
+    color: #61B5D9;
+}
+
+#postar-artigo .btn-postar-artigo {
+    background-color: #61B5D9;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 3px #fff;
+
+}
+
+
+
+#imagens-do-dia .imagens-dia, #astronautas-espaco .astronautas{
+    background-color: #202E44;
+    border-image: linear-gradient(to right, var(#61B5D9), var(#E4F2FC));
+    border-image-slice: 1;
+    padding: 8px;
+
+    box-shadow: 0 0 10px #61b5d9;
+    border-radius: 15px;
+
+}
+
+#imagens-do-dia .imagens-dia .titulo-apod, #astronautas-espaco .astronautas .titulo-astronauta {
+    color: #61B5D9;
+}
+
+#astronautas-espaco .astronautas .numero-astronauta{
+    font-size: 50px;
+}
+
+#postar-artigo .artigo-style {
+    background: #afc8ff6e;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.244);
+    backdrop-filter: blur(12.2px);
+    -webkit-backdrop-filter: blur(12.2px);
+    border: 1px solid #1016302d;
+    color: #fff;
+}

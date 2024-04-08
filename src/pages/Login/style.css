@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --azul-escuro: #101630;
+}
+
+#main-login-lock {
+    min-width: 100%;
+}
+
+.main-login {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+.main-login .imagem-login {
+    background-color: var(--azul-escuro);
+
+}
+
+
+.main-login .titulo-login {
+    color: #AFC8FF;
+}
+
+
+.main-login .imagem-limite {
+    max-width: 100%;
+    height: 70vh;
+}
+
+.main-login .botao-cadastro,
+.main-login .botao-login {
+    background-color: #101630;
+    border: 1px solid #101630;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.main-login .botao-cadastro:hover,
+.main-login .botao-login:hover {
+    background-color: #101630ce;
+    border: 1px solid #101630;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.main-login .form-padrao {
+    border: 1px solid #626277;
+    height: 40px;
+    border-radius: 10px;
+}
+
+
+.main-login .container-login .card-login {
+    min-height: 420px;
+    max-height: 420px;
+    background: #afc8ff83;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.2px);
+    -webkit-backdrop-filter: blur(12.2px);
+    border: 1px solid #1016302d;
+    color: #101630;
+    padding: 5px 0;
+
+}
+
+#cadastrar-tab,
+#login-tab {
+    list-style: none;
+    background-color: inherit;
+    position: relative;
+    padding: 10px 20px;
+
+}
+
+.main-login .container-login .botao-switch {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.main-login .container-login .botao-switch::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #101630;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+
+
+.main-login .container-login .botao-switch.active:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.main-login .container-login .botao-switch:hover,
+.main-login .container-login .botao-switch.active,
+.main-login .container-login .botao-switch {
+    outline: none;
+    border: 0;
+}
+
+    .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
