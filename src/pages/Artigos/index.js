@@ -80,7 +80,7 @@ function Artigos() {
     };
 
     function dataAtual() {
-        const data = new Date();
+        const data = new Date(Date.now() + (new Date().getTimezoneOffset() - 300) * 60000);
 
         const ano = data.getFullYear();
         const mes = String(data.getMonth() + 1).padStart(2, '0');

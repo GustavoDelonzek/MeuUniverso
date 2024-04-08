@@ -15,7 +15,7 @@ html {
 
 #main-artigo .titulo-forum {
     background: #4429B8;
-    background: linear-gradient(to top, #6fbcf7 0%, #fff 70%);
+    background: linear-gradient(to top, #fff 0%, #77d4fc 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
