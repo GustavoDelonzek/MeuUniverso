@@ -1,10 +1,10 @@
-#missoes{
+#missoes {
     background-color: #31386E;
     min-height: 100vh;
     overflow: hidden;
 }
 
-.teste-progresso{
+.teste-progresso {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
     padding: 1%;
 }
 
-.progress-circular{
+.progress-circular {
     position: relative;
     width: 125px;
     height: 125px;
@@ -22,10 +22,10 @@
     justify-content: center;
     align-items: center;
     background: conic-gradient(#387385 30deg, #ededed 0deg);
-    
+
 }
 
-.progress-circular::after{
+.progress-circular::after {
     position: absolute;
     content: '';
     width: 105px;
@@ -34,62 +34,63 @@
     background: #fff;
 }
 
-.value{
+.value {
     font-size: 30px;
     font-weight: 600;
     color: #61B5D9;
     z-index: 9;
 }
 
-.temporizador-container{
+.temporizador-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2.5rem;
 }
 
-.text{
+.text {
     font-weight: bold;
     font-size: 50px;
-    margin: 1px 15px;
+    margin: 1px 13px;
 }
 
-.temporizador{
+.temporizador {
     text-align: center;
 }
 
-.temporizador span{
+.temporizador span {
     font-size: 14px;
 }
-#missoes .titulo-missao{
+
+#missoes .titulo-missao {
     color: #61B5D9;
     font-weight: 700;
     font-size: 22px;
 }
 
-#missoes .titulo-pagina{
+#missoes .titulo-pagina {
     color: #61B5D9;
     font-weight: bold;
     font-family: 'Lato', sans-serif;
     font-size: 46px;
     padding: 15px;
-    text-shadow: -4px 2px 6px rgba(0,0,0,1);
+    text-shadow: -4px 2px 6px rgba(0, 0, 0, 1);
 }
 
-#missoes ul{
-    list-style:  none;
+#missoes ul {
+    list-style: none;
 }
 
-#missoes .nav-link{
+#missoes .nav-link {
     padding: 10px 25px;
     margin: 0;
 }
 
-#missoes .nav-link:hover{
+#missoes .nav-link:hover {
     color: #ffffff88;
 }
 
-#missoes .card-missoes{
+#missoes .card-missoes {
     border-image: linear-gradient(to right, var(#61B5D9), var(#E4F2FC));
     border-image-slice: 1;
     color: #fff;
@@ -100,6 +101,15 @@
 }
 
 
-#missoes .tab-pane{
+#missoes .tab-pane {
     background-color: #ffffffcb;
+}
+
+
+@media (max-width: 445px) {
+
+    .text {
+        font-weight: bold;
+        margin: 1px 3px;
+    }
 }

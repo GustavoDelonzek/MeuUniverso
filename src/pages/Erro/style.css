@@ -3,8 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #31386E;
-    min-height: 85vh;
-    padding-top: 10%;
+    min-height: 100vh;
     color: black;
 }
 
@@ -36,3 +35,6 @@ div .Erro .subtitulo{
     color: #8b8484;
 }
 
+.imagem-erro{
+    max-height: 70vh;
+}

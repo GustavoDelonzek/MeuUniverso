@@ -130,7 +130,7 @@ function Artigos() {
                     >
                         {noticias.map((noticia) => {
                             return (
-                                <SwiperSlide><a href={noticia.noticiaUrl} className="imagens-noticias p-2 d-flex flex-column justify-content-between" style={{ backgroundImage: `url(${noticia.imageUrl})` }}>
+                                <SwiperSlide><a href={noticia.noticiaUrl}  target="_blank" className="imagens-noticias p-2 d-flex flex-column justify-content-between" style={{ backgroundImage: `url(${noticia.imageUrl})` }}>
                                     <h6 className="blur pt-3">{noticia.titulo}</h6>
                                     <p className="blur">-{noticia.autor}</p>
                                 </a></SwiperSlide>

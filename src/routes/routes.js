@@ -20,6 +20,7 @@ import ArtigoCrudProvider from "../contexts/artigoCrud";
 
 const VerificaRota = ({ children }) => {
     const localizacao = useLocation();
+    
     return children(localizacao);
 };
 
@@ -32,7 +33,7 @@ function RoutesApp() {
                
                 {localizacao => (
                     <>
-                        {localizacao.pathname !== '/login' && <Header />}
+                        {localizacao.pathname !== '/login' && localizacao.pathname !== '/erro' ?<Header /> : null}
                         {localizacao.pathname === '/' ? toggleIsHome(true) : toggleIsHome(false)}
                         <Routes>
                             <Route path="/" element={<Home />} />

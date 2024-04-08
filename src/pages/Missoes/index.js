@@ -44,19 +44,19 @@ function Missões() {
                                                 </div>
                                                 <div className="temporizador-container">
                                                     <div className="temporizador dias-c">
-                                                        <p className="text" id="dias">{formatarTempo(Temporizador(missao.datatermino).dias)} days</p>
+                                                        <p className="text temporizador-valores" id="dias">{formatarTempo(Temporizador(missao.datatermino).dias)} days</p>
 
                                                     </div>
                                                     <div className="temporizador horas-c">
-                                                        <p className="text" id="horas">{formatarTempo(Temporizador(missao.datatermino).horas)}hrs</p>
+                                                        <p className="text temporizador-valores" id="horas">{formatarTempo(Temporizador(missao.datatermino).horas)}hrs</p>
 
                                                     </div>
                                                     <div className="temporizador minutos-c">
-                                                        <p className="text" id="minutos">{formatarTempo(Temporizador(missao.datatermino).minutos)}min</p>
+                                                        <p className="text temporizador-valores" id="minutos">{formatarTempo(Temporizador(missao.datatermino).minutos)}min</p>
 
                                                     </div>
                                                     <div className="temporizador segundos-c">
-                                                        <p className="text" id="segundos">{formatarTempo(Temporizador(missao.datatermino).segundos)}segs</p>
+                                                        <p className="text temporizador-valores" id="segundos">{formatarTempo(Temporizador(missao.datatermino).segundos)}segs</p>
 
                                                     </div>
                                                 </div>
