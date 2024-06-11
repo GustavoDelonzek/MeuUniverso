@@ -38,7 +38,7 @@ function Artigos() {
     const [descricao, setDescricao] = useState('');
     const [apodData, setApodData] = useState([]);
     const [diaAtual, setDiaAtual] = useState(new Date())
-    const { artigo, handleAdd, excluirArtigo } = useContext(ArtigoCrudContext)
+    const { artigo, handleAdd, excluirArtigo, adicionarCurtida, removerCurtida } = useContext(ArtigoCrudContext)
     const { user } = useContext(AuthContext);
 
 
@@ -101,12 +101,12 @@ function Artigos() {
             <section className="container noticias-artigo ">
                 <div className="row d-flex align-items-center">
 
-                <div className="">
+                    <div className="">
                         <h2 className="py-2 titulo-noticias text-center">Noticias recentes</h2>
                         <p className="text-center">Acompanhe as têndencias do mundo astronomico junto com a possibilidade de descoberta</p>
                     </div>
                     <Swiper
-                        
+
                         navigation={false}
                         pagination={{
                             type: 'progressbar',
@@ -130,7 +130,7 @@ function Artigos() {
                     >
                         {noticias.map((noticia) => {
                             return (
-                                <SwiperSlide><a href={noticia.noticiaUrl}  target="_blank" className="imagens-noticias p-2 d-flex flex-column justify-content-between" style={{ backgroundImage: `url(${noticia.imageUrl})` }}>
+                                <SwiperSlide><a href={noticia.noticiaUrl} target="_blank" className="imagens-noticias p-2 d-flex flex-column justify-content-between" style={{ backgroundImage: `url(${noticia.imageUrl})` }}>
                                     <h6 className="blur pt-3">{noticia.titulo}</h6>
                                     <p className="blur">-{noticia.autor}</p>
                                 </a></SwiperSlide>
@@ -138,7 +138,7 @@ function Artigos() {
                         })}
 
                     </Swiper>
-                    
+
                 </div>
 
             </section>
@@ -212,9 +212,18 @@ function Artigos() {
 
                                                     <div className="row">
 
-                                                        <button className="btn col-6 text-start text-light">
-                                                            <IoMdHeartEmpty size={25} /> {artigos.curtidas.length}
-                                                        </button>
+
+                                                        {artigos.curtido === false ? (
+                                                            <button className="btn col-6 text-start text-light" onClick={() => adicionarCurtida(artigos.id)}>
+                                                                <IoMdHeartEmpty size={25} /> {artigos.curtidas.length}
+                                                            </button>
+                                                        ) : (
+                                                            <button className="btn col-6 text-start text-light" onClick={() => removerCurtida(artigos.id)}>
+
+                                                                <IoMdHeart size={25} /> {artigos.curtidas.length}
+                                                            </button>
+                                                        )}
+
 
                                                         <p class="card-text text-end col-6"><small class="text-body-light">{artigos.horario.toLocaleString()}</small></p>
                                                     </div>

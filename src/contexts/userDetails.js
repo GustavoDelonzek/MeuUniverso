@@ -129,7 +129,7 @@ function AuthProvider({ children }){
         setUser
       }}
     >
-      {children}
+      {!loading && children}
     </AuthContext.Provider>
   )
 }
